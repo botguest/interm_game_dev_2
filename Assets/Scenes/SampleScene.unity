@@ -2076,6 +2076,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabToInstantiate: {fileID: 5353401078201186575, guid: be635808a4ee240dcbf8f9e200c2a75d, type: 3}
+  textManager: {fileID: 1328942227}
+  respawnable: 1
 --- !u!61 &1077054496
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2633,6 +2635,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 1328942230}
+  live_lost: 0
+  lives: 3
+  respawnManager: {fileID: 1077054494}
 --- !u!114 &1328942230
 MonoBehaviour:
   m_ObjectHideFlags: 0
